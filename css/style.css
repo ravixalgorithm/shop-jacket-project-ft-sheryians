@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#nav{
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 40px;
+    padding: 0 40px;
+}
+#nav h4{
+    font-size: 20px;
+}
+
+#nav i{
+    font-size: 20px;
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+#content{
+    padding: 10px 100px;
+    width: 100%;
+}
+#content h1{
+    font-size: 70px;
+    line-height: 65px;
+    font-weight: 200;
+}
+
+#content-inner{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#content-inner p{
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 400;
+}
+
+#options{
+    width: 20%;
+}
+.elem{
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid #000;
+}
+
+.elem:hover{
+    background-color: #f2f2f2;
+}
+.elem a{
+    font-size: 15px;
+    text-decoration: none;
+    color: #000;
+    margin: auto 0;
+    font-weight: 600;
+    padding: 0 10px;
+}
+.elem:hover a{
+    text-decoration: underline;
+}
+
+.elem i{
+    font-size: 30px;
+    opacity: 0;
+}
+.elem:hover i{
+    opacity: 1;
+}
+
+#bottom{
+    height: 26.8vh;
+    background-image: url(https://media.istockphoto.com/id/2153524477/photo/funny-young-happy-girl-with-hair-in-fashion-casual-clothes-with-a-leather-jacket-dress-hat.jpg?s=2048x2048&w=is&k=20&c=CP1E8XH6o2qa2xn-ecCK49Qm0jiXF821PXC-s1D8cGA=);
+    background-size: cover;
+    background-position: center;
+}
