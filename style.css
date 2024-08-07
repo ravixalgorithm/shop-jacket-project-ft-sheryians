@@ -90,8 +90,53 @@ html, body{
 }
 
 #bottom{
-    height: 26.8vh;
+    height: 50vh;
     background-image: url(https://media.istockphoto.com/id/2153524477/photo/funny-young-happy-girl-with-hair-in-fashion-casual-clothes-with-a-leather-jacket-dress-hat.jpg?s=2048x2048&w=is&k=20&c=CP1E8XH6o2qa2xn-ecCK49Qm0jiXF821PXC-s1D8cGA=);
     background-size: cover;
     background-position: center;
+}
+
+@media only screen and (max-width: 600px) {
+    #nav{
+        height: 50px;
+        gap: 20px;
+        padding: 0 20px;
+    }
+    #nav h4{
+        font-size: 15px;
+    }
+    
+    #nav i{
+        font-size: 15px;
+        padding: 10px;
+    }
+    #content{
+        padding: 10px;
+    }
+    #content h1{
+        font-size: 45px;
+        line-height: 45px;
+    }
+    
+    #content-inner{
+        margin-top: 10px;
+        display:block;
+    }
+    
+    #content-inner p{
+        font-size: 15px;
+        line-height: 18px;
+    }
+    
+    #options{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    #bottom{
+        height: 50vh;
+        background-image: url(https://media.istockphoto.com/id/2153524477/photo/funny-young-happy-girl-with-hair-in-fashion-casual-clothes-with-a-leather-jacket-dress-hat.jpg?s=2048x2048&w=is&k=20&c=CP1E8XH6o2qa2xn-ecCK49Qm0jiXF821PXC-s1D8cGA=);
+        background-size: cover;
+        background-position: center;
+    }
 }
